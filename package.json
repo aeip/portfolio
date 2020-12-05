@@ -14,15 +14,11 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "emailjs-com": "^2.6.3",
-    "google-spreadsheet": "^3.0.14",
     "react": "^17.0.1",
-    "react-db-google-sheets": "^2.1.1",
     "react-dom": "^17.0.1",
     "react-hook-form": "^6.12.2",
     "react-material-ui-form": "^1.1.7",
-    "react-matrix-effect": "^1.1.0",
     "react-scripts": "4.0.0",
-    "reactstrap": "^8.7.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
