@@ -24,9 +24,9 @@ export default function Cards(props) {
 			{projects
 				.slice(0)
 				.reverse()
-				.map((project) => {
+				.map((project, i) => {
 					return (
-						<div className='project'>
+						<div className='project' key={i}>
 							<Card className={classes.root}>
 								<CardActionArea
 									href={project.gsx$live.$t}
