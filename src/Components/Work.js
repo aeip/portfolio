@@ -10,7 +10,6 @@ const Work = () => {
 			const apiCall = await fetch(sheetAsJSON);
 			const projects = await apiCall.json();
 			setProjects(projects.feed.entry);
-			console.log(projects.feed.entry);
 		};
 		getProjects();
 	}, []);
