@@ -62,8 +62,8 @@ const Contact = () => {
 					id='outlined-required'
 					label='Name'
 					variant='outlined'
-					name='name'
 					ref={register({
+						name: 'name',
 						required: 'Please enter your name',
 						maxLength: {
 							value: 20,
@@ -83,8 +83,8 @@ const Contact = () => {
 					id='outlined-required'
 					label='Email'
 					variant='outlined'
-					name='email'
 					ref={register({
+						name: 'email',
 						required: 'Please enter an email',
 						pattern: {
 							value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
@@ -106,8 +106,8 @@ const Contact = () => {
 					multiline
 					rows={5}
 					variant='outlined'
-					name='message'
 					ref={register({
+						name: 'message',
 						required: true,
 					})}
 				/>
