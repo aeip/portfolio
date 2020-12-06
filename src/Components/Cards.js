@@ -12,7 +12,7 @@ import VisibilityIcon from '@material-ui/icons/Visibility';
 
 const useStyles = makeStyles({
 	root: {
-		maxWidth: 300,
+		maxWidth: 345,
 	},
 });
 
@@ -35,7 +35,7 @@ export default function Cards(props) {
 									<CardMedia
 										component='img'
 										alt='Project Image'
-										height='250'
+										height='300'
 										image={project.gsx$image.$t}
 										title='Project Image'
 									/>
