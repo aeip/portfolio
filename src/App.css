@@ -201,9 +201,9 @@ body {
 }
 
 .contact-button {
-  background-color: #EB3B5A;
+  background-color: #3b3c36;
   border-radius: 5px;
-  border: 5px solid #9c161f;
+  border: 5px solid #000;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -216,7 +216,7 @@ body {
 }
 
 .contact-button:hover {
-  background-color: #9c161f;
+  background-color: #000;
 }
 
 .contact-button:active {
@@ -322,11 +322,17 @@ h2:after {
 }
 
 .advanced {
+  background-color: #49101a;
   color: #EB3B5A;
+  border-radius: 5%;
+  padding: 10px;
 }
 
 .intermediate {
+  background-color: #3d2e0c;
   color: #ebb33b;
+  border-radius: 5%;
+  padding: 10px;
 }
 
 /* .profile-photo {
