@@ -38,20 +38,28 @@ const Music = () => {
 	return (
 		<div className='music-content'>
 			<h2>Music Player</h2>
-			<form onSubmit={handleSubmit}>
+			<form onSubmit={handleSubmit} id='myform'>
 				<InputBase
 					onChange={handleInput}
 					value={searchTerm}
 					placeholder='Search iTunes'
 					inputProps={{ 'aria-label': 'search iTunes' }}
 				/>
-				<IconButton type='submit' aria-label='search'>
+				<IconButton aria-label='search' onClick={handleSubmit}>
 					<SearchIcon />
 				</IconButton>
 			</form>
 			{songs && data ? (
-				<div className='songs-list'
-                    style={{"--vibrant": data.vibrant, "--muted": data.muted, "--lightVibrant": data.lightVibrant, "--lightMuted": data.lightMuted, "--darkVibrant": data.darkVibrant, "--darkMuted": data.darkMuted}}>
+				<div
+					className='songs-list'
+					style={{
+						'--vibrant': data.vibrant,
+						'--muted': data.muted,
+						'--lightVibrant': data.lightVibrant,
+						'--lightMuted': data.lightMuted,
+						'--darkVibrant': data.darkVibrant,
+						'--darkMuted': data.darkMuted,
+					}}>
 					{songs.map((song, i) => {
 						return (
 							<div key={i} className='song-list-one'>
@@ -59,16 +67,15 @@ const Music = () => {
 									<img src={song.artworkUrl100} alt='' />
 								</div>
 								<div className='song-list-one-bottom'>
-									<p className="trackName">{song.trackName}</p>
-									<p className="artistName">{song.artistName}</p>
+									<p className='trackName'>{song.trackName}</p>
+									<p className='artistName'>{song.artistName}</p>
 								</div>
 								<audio
 									src={song.previewUrl}
 									type='audio/mpeg'
 									onPause={pauseSong}
 									onPlay={() => playSong(song.artworkUrl100)}
-									controls>
-								</audio>
+									controls></audio>
 							</div>
 						);
 					})}
