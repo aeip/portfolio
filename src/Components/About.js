@@ -28,6 +28,9 @@ const About = () => {
 						<a href={resume}>
 							<button className='normalButton'>Resume</button>
 						</a>
+						<a href='#contact'>
+							<button className='contact-button'>Contact Me</button>
+						</a>
 					</div>
 					{/* <div className='about-buttons-right'>
 						<a href='https://www.appcoda.com/wwdc-2015-scholarship/'>

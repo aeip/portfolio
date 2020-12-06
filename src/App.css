@@ -186,10 +186,11 @@ body {
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   padding: 5px;
   text-decoration: none;
+  margin: 10px;
 }
 
 .normalButton:hover {
@@ -202,6 +203,7 @@ body {
 }
 
 .contact-button {
+  white-space: nowrap;
   background-color: #3b3c36;
   border-radius: 5px;
   border: 5px solid #000;
@@ -209,11 +211,11 @@ body {
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   padding: 5px;
   text-decoration: none;
-
+  margin: 10px;
 }
 
 .contact-button:hover {
@@ -398,8 +400,9 @@ h2:after {
 } 
 
 #name {
-   color: var(--primary);
-   animation: shadow-wave 60s ease infinite;
+   color: #EB3B5A;
+   white-space: nowrap;
+   /* animation: shadow-wave 60s ease infinite; */
 }
 
 @keyframes shadow-wave {
