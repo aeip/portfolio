@@ -156,6 +156,7 @@ body {
 }
 
 .about-text h1 {
+  font-size: 4vw;
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
