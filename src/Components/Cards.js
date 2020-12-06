@@ -35,7 +35,7 @@ export default function Cards(props) {
 									<CardMedia
 										component='img'
 										alt='Project Image'
-										height='300'
+										height='250'
 										image={project.gsx$image.$t}
 										title='Project Image'
 									/>
