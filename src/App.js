@@ -5,6 +5,7 @@ import Technologies from './Components/Technologies/Technologies';
 import Work from './Components/Work';
 import Future from './Components/Future/Future';
 import Contact from './Components/Contact';
+import Music from './Components/Music'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Technologies />
       <Work />
       <Future />
+      <Music />
       <Contact />
     </div>
   );
