@@ -400,9 +400,9 @@ h2:after {
 } 
 
 #name {
-   color: #EB3B5A;
+   color: var(--primary);
    white-space: nowrap;
-   /* animation: shadow-wave 60s ease infinite; */
+   animation: shadow-wave 60s ease infinite;
 }
 
 @keyframes shadow-wave {
