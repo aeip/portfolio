@@ -45,7 +45,7 @@ const Music = () => {
 					placeholder='Search iTunes'
 					inputProps={{ 'aria-label': 'search iTunes' }}
 				/>
-				<IconButton aria-label='search' onClick={handleSubmit}>
+				<IconButton onTouchStart={handleSubmit} aria-label='search' onClick={handleSubmit}>
 					<SearchIcon />
 				</IconButton>
 			</form>
