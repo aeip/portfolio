@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
 .App {
 	text-align: center;
 }
@@ -156,12 +157,24 @@ body {
 }
 
 .about-text h1 {
-	font-size: 4vw;
+	font-size: 3vw;
 	overflow: hidden;
 	white-space: nowrap;
-	margin: 0 auto;
+	margin: 10 auto;
 	letter-spacing: 2px;
 	animation: typing 5s steps(70, end);
+}
+.about-text {
+	margin: 20px;
+}
+
+.about-p {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 20px;
+	border-radius: 20px;
+	font-size: 18px;
 }
 
 @keyframes typing {

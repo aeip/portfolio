@@ -6,14 +6,10 @@ const About = () => {
 			<div className='about'>
 				<div className='about-text'>
 					<h1>Full Stack Software Engineer</h1>
-					<p>
-						I am a full stack developer and designer with determination to build
-						complex yet simple products people love and improve their daily
-						lives. I love utilizing my intense determination and motivation to
-						solve problems because it gives me more knowledge in building
-						things. My empathy and understanding of others helps bring my teams
-						closer together and accomplish our goal creatively and effectively.
-					</p>
+					<i>
+						with intense determination and motivation to build complex yet simple
+						products people love to use every day.
+					</i>
 				</div>
 				<div className='about-buttons'>
 					{/* <div className='about-buttons-left'>
