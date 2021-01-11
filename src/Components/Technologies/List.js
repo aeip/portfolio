@@ -39,7 +39,25 @@ const List = () => {
 			</div>
 			<div className='technologies-list-single'>
 				<FontAwesomeIcon icon={faReact} size='6x' />
-				<h5>React</h5>
+				<h5>React.js & React Native</h5>
+				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
+				<h5 className='technologies-list-single-time'>5 years</h5>
+			</div>
+			<div className='technologies-list-single'>
+				<FontAwesomeIcon icon={faSwift} size='6x' />
+				<h5>Swift</h5>
+				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
+				<h5 className='technologies-list-single-time'>5 years</h5>
+			</div>
+			<div className='technologies-list-single'>
+				<FontAwesomeIcon icon={faGem} size='6x' />
+				<h5>Ruby on Rails</h5>
+				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
+				<h5 className='technologies-list-single-time'>5 years</h5>
+			</div>
+			<div className='technologies-list-single'>
+				<FontAwesomeIcon icon={faLaptopCode} size='6x' />
+				<h5>TypeScript</h5>
 				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
 				<h5 className='technologies-list-single-time'>5 years</h5>
 			</div>
@@ -52,46 +70,12 @@ const List = () => {
 				<h5 className='technologies-list-single-time'>3 years</h5>
 			</div>
 			<div className='technologies-list-single'>
-				<FontAwesomeIcon icon={faPython} size='6x' />
-				<h5>Python</h5>
-				<h5 className='technologies-list-single-time intermediate'>
-					Intermediate
-				</h5>
-				<h5 className='technologies-list-single-time'>3 years</h5>
-			</div>
-			<div className='technologies-list-single'>
-				<FontAwesomeIcon icon={faJava} size='6x' />
-				<h5>Java</h5>
-				<h5 className='technologies-list-single-time intermediate'>
-					Intermediate
-				</h5>
-				<h5 className='technologies-list-single-time'>4 years</h5>
-			</div>
-			<div className='technologies-list-single'>
-				<FontAwesomeIcon icon={faLaptopCode} size='6x' />
-				<h5>TypeScript</h5>
-				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
-				<h5 className='technologies-list-single-time'>5 years</h5>
-			</div>
-			<div className='technologies-list-single'>
-				<FontAwesomeIcon icon={faGem} size='6x' />
-				<h5>Ruby on Rails</h5>
-				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
-				<h5 className='technologies-list-single-time'>5 years</h5>
-			</div>
-			<div className='technologies-list-single'>
 				<FontAwesomeIcon icon={faServer} size='6x' />
 				<h5>Express / MongoDB</h5>
 				<h5 className='technologies-list-single-time intermediate'>
 					Intermediate
 				</h5>
 				<h5 className='technologies-list-single-time'>3 years</h5>
-			</div>
-			<div className='technologies-list-single'>
-				<FontAwesomeIcon icon={faSwift} size='6x' />
-				<h5>Swift</h5>
-				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
-				<h5 className='technologies-list-single-time'>5 years</h5>
 			</div>
 		</div>
 	);
