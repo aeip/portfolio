@@ -5,15 +5,16 @@ import {
 	faCss3,
 	faJs,
 	faReact,
-	faPython,
-	faJava,
+	faNode,
 	faSwift
 } from '@fortawesome/free-brands-svg-icons';
 import {
 	faDatabase,
 	faLaptopCode,
 	faGem,
-	faServer
+	faServer,
+	faDigitalTachograph,
+	faMobile
 } from '@fortawesome/free-solid-svg-icons';
 
 const List = () => {
@@ -39,7 +40,13 @@ const List = () => {
 			</div>
 			<div className='technologies-list-single'>
 				<FontAwesomeIcon icon={faReact} size='6x' />
-				<h5>React.js & React Native</h5>
+				<h5>React.js</h5>
+				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
+				<h5 className='technologies-list-single-time'>5 years</h5>
+			</div>
+			<div className='technologies-list-single'>
+				<FontAwesomeIcon icon={faMobile} size='6x' />
+				<h5>React Native</h5>
 				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
 				<h5 className='technologies-list-single-time'>5 years</h5>
 			</div>
@@ -50,20 +57,32 @@ const List = () => {
 				<h5 className='technologies-list-single-time'>5 years</h5>
 			</div>
 			<div className='technologies-list-single'>
-				<FontAwesomeIcon icon={faGem} size='6x' />
-				<h5>Ruby on Rails</h5>
-				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
-				<h5 className='technologies-list-single-time'>5 years</h5>
-			</div>
-			<div className='technologies-list-single'>
 				<FontAwesomeIcon icon={faLaptopCode} size='6x' />
 				<h5>TypeScript</h5>
 				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
 				<h5 className='technologies-list-single-time'>5 years</h5>
 			</div>
 			<div className='technologies-list-single'>
+				<FontAwesomeIcon icon={faGem} size='6x' />
+				<h5>Ruby on Rails</h5>
+				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
+				<h5 className='technologies-list-single-time'>5 years</h5>
+			</div>
+			<div className='technologies-list-single'>
+				<FontAwesomeIcon icon={faNode} size='6x' />
+				<h5>Node.js</h5>
+				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
+				<h5 className='technologies-list-single-time'>5 years</h5>
+			</div>
+			<div className='technologies-list-single'>
+				<FontAwesomeIcon icon={faDigitalTachograph} size='6x' />
+				<h5>REST APIs</h5>
+				<h5 className='technologies-list-single-time advanced'>Advanced</h5>
+				<h5 className='technologies-list-single-time'>5 years</h5>
+			</div>
+			<div className='technologies-list-single'>
 				<FontAwesomeIcon icon={faDatabase} size='6x' />
-				<h5>SQL</h5>
+				<h5>NoSQL</h5>
 				<h5 className='technologies-list-single-time intermediate'>
 					Intermediate
 				</h5>
