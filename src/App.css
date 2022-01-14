@@ -354,6 +354,13 @@ h2:after {
 	padding: 10px;
 }
 
+.entry {
+	background-color: #023002;
+	color: #0CF20E;
+	border-radius: 5%;
+	padding: 10px;
+}
+
 /* .profile-photo {
   width: 10%;
   height: 10%;

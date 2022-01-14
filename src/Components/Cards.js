@@ -29,37 +29,37 @@ export default function Cards(props) {
 						<div className='project' key={i}>
 							<Card className={classes.root}>
 								<CardActionArea
-									href={project.gsx$live.$t}
+									href={project.Live}
 									target='_blank'
 									rel='noreferrer'>
 									<CardMedia
 										component='img'
 										alt='Project Image'
 										height='300'
-										image={project.gsx$image.$t}
+										image={project.Image}
 										title='Project Image'
 									/>
 									<CardContent>
 										<Typography gutterBottom variant='h5' component='h2'>
-											{project.gsx$title.$t}
+											{project.Title}
 										</Typography>
 										<Typography
 											variant='body2'
 											color='textSecondary'
 											component='p'>
-											{project.gsx$description.$t}
+											{project.Description}
 										</Typography>
 										<Typography
 											variant='overline'
 											color='textPrimary'
 											component='p'>
-											{project.gsx$tech.$t}
+											{project.Tech}
 										</Typography>
 									</CardContent>
 								</CardActionArea>
 								<CardActions>
 									<Button
-										href={project.gsx$code.$t}
+										href={project.Code}
 										target='_blank'
 										rel='noreferrer'
 										variant='outlined'
@@ -69,7 +69,7 @@ export default function Cards(props) {
 										Code
 									</Button>
 									<Button
-										href={project.gsx$live.$t}
+										href={project.Live}
 										target='_blank'
 										rel='noreferrer'
 										variant='outlined'

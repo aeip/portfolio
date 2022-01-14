@@ -5,11 +5,11 @@ const Work = () => {
 	const [projects, setProjects] = useState([]);
 	useEffect(() => {
 		let sheetAsJSON =
-			'https://spreadsheets.google.com/feeds/list/1TlKRKovC8em4akrec83UF8KgqFztfjvAfACcb0tpy5E/od6/public/values?alt=json';
+			'https://cors-anywhere.herokuapp.com/https://opensheet.elk.sh/1TlKRKovC8em4akrec83UF8KgqFztfjvAfACcb0tpy5E/Sheet1';
 		const getProjects = async () => {
 			const apiCall = await fetch(sheetAsJSON);
 			const projects = await apiCall.json();
-			setProjects(projects.feed.entry);
+			setProjects(projects);
 		};
 		getProjects();
 	}, []);
