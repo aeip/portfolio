@@ -16,6 +16,7 @@
     "emailjs-com": "^2.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-gist": "^1.2.4",
     "react-hook-form": "^6.12.2",
     "react-material-ui-form": "^1.1.7",
     "react-palette": "^1.0.2",
