@@ -1,5 +1,9 @@
 import React from 'react'
 import resume from '../docs/Resume-Stasys-Meclazcke.pdf'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+	faApple
+} from '@fortawesome/free-brands-svg-icons';
 
 const About = (props) => {
     return (
@@ -29,7 +33,7 @@ const About = (props) => {
 						</a>
 						<br></br>
 						<a href="#swiftcode">
-							<button onClick={() => { props.setShowSwiftCode(!props.showSwiftCode) }} className='swiftButton'> Swift Code</button>
+							<button onClick={() => { props.setShowSwiftCode(!props.showSwiftCode) }} className='swiftButton'><FontAwesomeIcon icon={faApple} size='1x' /> Swift Code</button>
 						</a>
 					</div>
 					{/* <div className='about-buttons-right'>
