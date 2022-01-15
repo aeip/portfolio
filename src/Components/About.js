@@ -1,7 +1,7 @@
 import React from 'react'
 import resume from '../docs/Resume-Stasys-Meclazcke.pdf'
 
-const About = () => {
+const About = (props) => {
     return (
 			<div className='about'>
 				<div className='about-text'>
@@ -26,6 +26,10 @@ const About = () => {
 						</a>
 						<a href='#contact'>
 							<button className='contact-button'>Contact Me</button>
+						</a>
+						<br></br>
+						<a href="#swiftcode">
+							<button onClick={() => { props.setShowSwiftCode(!props.showSwiftCode) }} className='swiftButton'> Swift Code</button>
 						</a>
 					</div>
 					{/* <div className='about-buttons-right'>

@@ -194,6 +194,30 @@ body {
   width: 75px;
 } */
 
+.swiftButton {
+	background-color: #3fff3f;
+	border-radius: 5px;
+	border: 5px solid #196619;
+	display: inline-block;
+	cursor: pointer;
+	color: #196619;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.swiftButton:hover {
+	background-color: #2cb22c;
+}
+
+.swiftButton:active {
+	position: relative;
+	top: 1px;
+}
+
 .normalButton {
 	background-color: #3b87eb;
 	border-radius: 5px;
@@ -428,12 +452,17 @@ h2:after {
 	background-color: var(--vibrant);
   animation: song-wave 10s ease infinite;
   padding: 20px;
+  border-radius: 5%;
 }
 
 .song-list-one {
   display: flex;
   flex: wrap;
   justify-content: center;
+  border-radius: 10%;
+}
+.song-list-one-top img {
+	border-radius: 10%;
 }
 
 @keyframes song-wave {
@@ -513,14 +542,20 @@ filter: invert(92%) sepia(92%) saturate(2550%) hue-rotate(330deg) brightness(96%
     font-weight: bold;
     background-color: var(--vibrant);
     color: black;
-    padding: 10px;
-    margin-bottom: 0px;
+    padding: 5px;
+    margin-bottom: 5px;
+	border-radius: 20%;
   }
 
   .artistName {
     color:rgba(0, 0, 0, 0.5);
     background-color: var(--vibrant);
     font-size: 15px;
-    padding: 10px;
-    margin-top: 0px;
+    padding: 5px;
+    margin-top: 5px;
+	border-radius: 20%;
+  }
+
+  #myform {
+	  border: 10px solid orange;
   }
