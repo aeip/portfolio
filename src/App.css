@@ -562,5 +562,19 @@ filter: invert(92%) sepia(92%) saturate(2550%) hue-rotate(330deg) brightness(96%
 
 iframe {
 	height: 350px !important;
-	width: 40%;
+	width: 100%;
+}
+
+.swift-code {
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.swift-code-container {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	/* flex-wrap: wrap; */
 }
