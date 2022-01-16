@@ -1,6 +1,7 @@
 import React from 'react';
 import Gist from "react-gist";
 import LoginRegister from '../img/LoginRegister.png'
+import Profile from '../img/Profile.png'
 
 const SwiftCode = () => {
 	return (
@@ -10,6 +11,10 @@ const SwiftCode = () => {
                 <div className="swift-code-container">
                     <img height="350px" src={LoginRegister} alt='Login/Register' />
                     <Gist id="47b7416d0d2cb7cb37b549e45d04d09f" />
+                </div>
+                <div className="swift-code-container">
+                    <img height="350px" src={Profile} alt='Profile' />
+                    <Gist id="7e1f7b4d2cc50dda908835bd5774f5a9" />
                 </div>
             </div>
 		</div>
