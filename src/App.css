@@ -375,8 +375,8 @@ html {
 }
 
 .contact-photo {
-  max-height: 375px;
-  max-width: 375px;
+  max-height: 325px;
+  max-width: 325px;
   /* ff 3.6+ */
   background: -moz-linear-gradient(
     90deg,
