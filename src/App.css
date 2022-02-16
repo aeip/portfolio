@@ -420,7 +420,7 @@ html {
   box-shadow: 0 0 50px 10px rgb(9 7 161);
 }
 
-.contact a {
+.contact a, .design a {
   background: black;
   padding: 20px;
   border-radius: 20px;
