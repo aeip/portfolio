@@ -15,7 +15,7 @@ const NavigationBar = (props) => {
     <nav className="nav-bar">
         <div className="nav-bar-left">
           <img className="profile-photo" src={Me} alt="Portrait" />
-          <h1 id="name">Stasys Meclazcke</h1>
+          <h1 id="name">Stasys</h1>
         </div>
       <div className="nav-bar-right">
         <div>
