@@ -471,6 +471,7 @@ html {
   flex-wrap: wrap;
   padding: 50px;
   justify-content: center;
+  align-items: center;
 }
 
 .dev-card-text {
