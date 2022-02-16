@@ -297,6 +297,7 @@ html {
   flex: 40%;
   padding: 20px;
   max-width: 700px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -324,7 +325,7 @@ html {
 .car-text ul {
   display: inline-block;
   text-align: left;
-  list-style: none;
+  list-style: none
 }
 
 .car-text li {
