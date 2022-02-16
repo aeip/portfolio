@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: "SF Pro Rounded";
+  src: "https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts/blob/master/SF-Pro-Rounded-Regular.otf";
 }
 
 .App-logo {
@@ -49,6 +50,7 @@
 
 nav {
   font-family: "SF Pro Rounded";
+  src: "https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts/blob/master/SF-Pro-Rounded-Regular.otf";
   font-weight: 800;
 }
 
