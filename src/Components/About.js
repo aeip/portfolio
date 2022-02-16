@@ -4,6 +4,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import Mustang from "../img/mustang.jpg";
 import Mustang2 from "../img/mustang2.jpg";
 import Corvette from "../img/corvette.jpg";
+import Corvette2 from "../img/corvette2.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
@@ -86,7 +87,7 @@ const About = () => {
                 <img className="car-photo" src={Corvette} alt="Corvette" />
               </div>
               <div>
-                <img className="car-photo" src={Mustang2} alt="Mustang" />
+                <img className="car-photo" src={Corvette2} alt="Corvette" />
               </div>
             </Carousel>
           </div>
